@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jobs>
+    <job>
+        <title>Web Developer</title>
+        <company>ABC Company</company>
+        <deadline>2022-09-30</deadline>
+    </job>
+    <job>
+        <title>Marketing Manager</title>
+        <company>XYZ Corporation</company>
+        <deadline>2022-10-15</deadline>
+    </job>
+    <job>
+        <title>Accountant</title>
+        <company>PQR Enterprises</company>
+        <deadline>2022-11-30</deadline>
+    </job>
+</jobs>

@@ -1,0 +1,27 @@
+
+---Downloaded files---
+The import files for: Job Stack Theme were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost/wp
+Data file = C:\xampp\htdocs\wordpress/wp-content/uploads/2023/06/demo-content-import-file_2023-06-13__22-39-45.xml
+Widget file = C:\xampp\htdocs\wordpress/wp-content/uploads/2023/06/demo-widgets-import-file_2023-06-13__22-39-45.json
+Customizer file = C:\xampp\htdocs\wordpress/wp-content/uploads/2023/06/demo-customizer-import-file_2023-06-13__22-39-45.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+[WARNING] Failed to import job_listing_category Design
+[WARNING] Failed to import job_listing_category Development
+[WARNING] Failed to import job_listing_category Marketify
+[WARNING] Failed to import job_listing_category Sales
+
+
+------
+New AJAX call!
+[WARNING] Failed to import job_listing_category Design
+[WARNING] Failed to import job_listing_category Development
+[WARNING] Failed to import job_listing_category Marketify
+[WARNING] Failed to import job_listing_category Sales
+
