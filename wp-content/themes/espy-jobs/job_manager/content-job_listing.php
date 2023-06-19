@@ -45,7 +45,9 @@ $term_list = wp_get_post_terms($post->ID, 'job_listing_category', array("fields"
 			<?php if ( get_option( 'job_manager_enable_types' ) ) { ?>
 				<?php $types = wpjm_get_the_job_types(); ?>
 				<?php if ( ! empty( $types ) ) : foreach ( $types as $type ) : ?>
-					<li class="job-type <?php echo esc_attr( sanitize_title( $type->slug ) ); ?>"><?php echo esc_html( $type->name ); ?></li>
+					<!-- <li class="job-type <?php echo esc_attr( sanitize_title( $type->slug ) ); ?>"><?php echo esc_html( $type->name ); ?></li> -->
+					<input type="button" class="application_button button" value="<?php esc_attr_e( 'Apply Later', 'wp-job-manager' ); ?>" />
+					<input type="button" class="application_button button" value="<?php esc_attr_e( 'Not for me', 'wp-job-manager' ); ?>" />
 				<?php endforeach; endif; ?>
 			<?php } ?>
 			<?php do_action( 'job_listing_meta_end' ); ?>

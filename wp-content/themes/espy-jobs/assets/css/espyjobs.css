@@ -5,7 +5,7 @@ html{
   -moz-osx-font-smoothing: grayscale;
 }
 body {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   color: #6a6a6a;
   font-weight: 400;
@@ -19,11 +19,11 @@ a:hover, a:focus{
   color: #675cff;
 }
 a:visited {
-  color: #675cff;
+  color: rgb(38, 50, 56);
 }
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  font-family: "Inter";
+  font-family: 'Montserrat', sans-serif;
   color: #232837;
   font-weight: 700;
 }
@@ -179,10 +179,20 @@ div#navbar-collapse .navbar-nav {
 }
 
 .section-title h2 {
-	line-height: 43px;
-	font-size: 29px;
-  margin-bottom: 0;
-  color: #000;
+  padding-right: 20px;
+  z-index: 1;
+  position: relative;
+  display: inline-block;
+  background-color: #fff;
+}
+.section-title:before {
+  content: '';
+  display: block;
+  width: 1170px;
+  position: absolute;
+  top: 215px;
+  border-top: 3px solid #eaedef;
+  z-index: -1;
 }
 .about-section-img {
   margin-top: 65px;
@@ -989,7 +999,7 @@ nav ul {
   border: none !important;
   padding: 12px 35px;
   position: relative;
-  font-size: 16px !important;
+  font-size: 18px !important;
   overflow: hidden;
   transition: .5s;
   border-radius: 0;
@@ -1864,7 +1874,7 @@ p.site-description {
   font-size: 13px;
 }
 .site-branding {
-  margin-top: 3px;
+  margin-top: 10px;
 }
 a.social-btn {
   border: 0;
@@ -1926,8 +1936,8 @@ div#navbar-collapse {
   height: 240px;
 }
 .section-title {
-  text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+  padding-top: 20px;
 }
 .course-footer .title {
   margin-top: 20px;
@@ -3281,7 +3291,6 @@ a.header-btn.btn.btn-default {
 	float: right;
 	margin-left: 35px;
 	position: relative;
-	top: 4px;
 }
 
 
@@ -3395,7 +3404,7 @@ ul#menu-main li:last-child a {
 	border-right: none !important;
 }
 .site-branding {
-	max-width: 300px;
+	max-width: 420px;
 }
 
 ul#menu-main .navbar-nav>li>.dropdown-menu li a:focus,.navbar-nav>li>.dropdown-menu li a:focus-within {
@@ -3695,7 +3704,7 @@ section#header-slider {
 }
 .banner-content {
 	text-align: center;
-	padding: 150px 0;
+	padding: 10px 0;
 }
 .search-filter-wrap form .filter-inputwrap .form-group input {
 	border-width: 0;
@@ -3730,8 +3739,8 @@ section#header-slider {
 	height: 100%;
 	border-radius: 4px;
 	color: #fff;
-	background-color: #675cff;
-	border-color: #675cff;
+	background-color: #4caf50;
+	border-color: #4caf50;
 	margin-bottom: 0;
 	text-align: center;
 	vertical-align: middle;
@@ -3755,16 +3764,13 @@ section#header-slider {
 }
 
 section#header-slider:before{
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.05);
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   content: '';
-}
-.search-filter-wrap {
-	margin-top: 60px;
 }
 
 .search-filter-wrap .form-group div#job_category_chosen,.search-filter-wrap .form-group div#job_region_chosen {
@@ -3785,7 +3791,8 @@ section#header-slider:before{
 text-align: left;}
 
 section#header-slider {
-	position: relative;
+  position: relative;
+  width: 1170px;
 }
 .chosen-container-single .chosen-single span {
 	padding-top: 3px;
@@ -3854,7 +3861,7 @@ li .job-date {
 	-ms-border-radius: 4px;
 	-o-border-radius: 4px;
 	margin-bottom: 10px;
-	background: #f8f8f8!important;
+	background: rgba(0, 0, 0, 0.03);
 }
 .rp4wp-related-job_listing>ul, ul.job_listings{
 border: none;
@@ -3910,12 +3917,10 @@ a.load_more_jobs {
 }
 
 button, html input[type="button"], input[type="reset"], input[type="submit"], .btn-default, button, .button, .comment-respond .comment-form input[type="submit"], .comments-area ol.comment-list .reply a, a.post-edit-link, div.wpcf7 input[type="submit"], .hb_button {
-	background-color: #675cff;
-	box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 12%) 0px 1px 1px 0px, rgb(84 105 212) 0px 0px 0px 1px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(60 66 87 / 8%) 0px 2px 5px 0px !important;
+	background-color: #4caf50;
 	color: #fff;
 	cursor: pointer;
-	padding: 13px 28px;
-	border-radius: 4px !important;
+	padding: 10px 10px;
 }
 
 
@@ -3982,7 +3987,12 @@ fieldset.fieldset-company_name {
 	margin-bottom: 0px;
 }
 .section{
-padding: 70px 0;
+padding: 0px 0 30px 0;
+}
+.section .underline p {
+  float: left;
+  text-decoration: underline;
+  padding-right: 30px;
 }
 
 .blog-wrap figcaption h3 a {
@@ -4070,11 +4080,11 @@ ul#menu-main li.menu-item-has-children .dropdown-menu {
 	border-radius: 4px;
 	color: #444;
 	line-height: 35px;
-	font-family: dm sans,sans-serif;
+	font-family: Montserrat,sans-serif;
 }
 .chosen-container-multi .chosen-choices li.search-field input[type=text] {
 	color: #666;
-	font-family: dm sans,sans-serif;
+	font-family: Montserrat,sans-serif;
 }
 .chosen-container-active .chosen-choices li.search-field input[type=text] {
 	color: #222!important;
@@ -4195,6 +4205,6 @@ ul#menu-main li.menu-item-has-children .dropdown-menu {
 
   div.job_listings .load_more_jobs {
     display: table;
-    background-color: #675cff !important;
+    background-color: #4caf50 !important;
     color: #fff !important;
   }

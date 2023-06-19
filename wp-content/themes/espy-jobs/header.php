@@ -89,26 +89,6 @@ $show_preloader = $espyjobs_options['show_preloader'];
 			<button class="open-menu"><i class="fa fa-bars" aria-hidden="true"></i></button>
 	            <div class="collapse navbar-collapse" id="navbar-collapse">
 
-	             <?php
-	                if (has_nav_menu('primary')) { ?>
-	                <?php
-	                    wp_nav_menu(array(
-	                        'theme_location' => 'primary',
-	                        'container' => '',
-	                        'menu_class' => 'nav navbar-nav navbar-right',
-	                        'menu_id' => 'menu-main',
-	                        'walker' => new espyjobs_nav_walker(),
-	                        'fallback_cb' => 'espyjobs_nav_walker::fallback',
-	                    ));
-
-	                    ?>
-
-	                <?php } else { ?>
-	                    <nav id="site-navigation" class="main-navigation clearfix">
-	                        <?php   wp_page_menu(array('menu_class' => 'menu','menu_id' => 'menuid')); ?>
-	                    </nav>
-	                <?php } ?>
-
 
 
 					<?php  if( $header_button_txt && $header_button_url):?>

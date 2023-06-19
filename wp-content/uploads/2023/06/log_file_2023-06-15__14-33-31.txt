@@ -1,0 +1,48 @@
+
+---Downloaded files---
+The import files for: Espy Jobs Theme were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost/wp
+Data file = C:\xampp\htdocs\WP-JobTile/wp-content/uploads/2023/06/demo-content-import-file_2023-06-15__14-33-31.xml
+Widget file = C:\xampp\htdocs\WP-JobTile/wp-content/uploads/2023/06/demo-widgets-import-file_2023-06-15__14-33-31.json
+Customizer file = C:\xampp\htdocs\WP-JobTile/wp-content/uploads/2023/06/demo-customizer-import-file_2023-06-15__14-33-31.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+espyjobs Footer Widget1 : 
+
+Text - Espy Jobs - Imported
+
+espyjobs Footer Widget2 : 
+
+Pages - Site Map - Widget already exists
+
+espyjobs Footer Widget3 : 
+
+Recent Posts - Recent News Articles - Widget already exists
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+

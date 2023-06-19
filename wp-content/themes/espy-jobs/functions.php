@@ -197,10 +197,10 @@ if (!function_exists('espyjobs_font_url')) :
 
 
 		if ('off' !== _x('on', 'DM Sans font: on or off', 'espy-jobs')) {
-            $fonts[] = 'DM Sans:400,500';
+            $fonts[] = 'Montserrat:300,400,500,700';
         }
 		if ('off' !== _x('on', 'Inter: on or off', 'espy-jobs')) {
-            $fonts[] = 'Inter:700';
+            $fonts[] = 'Montserrat:700';
         }
 
         if ($fonts) {
@@ -326,3 +326,6 @@ if(!function_exists('espyjobs_blog_category')) {
         return $options;
     }
 }
+
+/* Disable WordPress Admin Bar for all users */
+add_filter( 'show_admin_bar', '__return_false' );
